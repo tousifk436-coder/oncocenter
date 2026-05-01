@@ -288,6 +288,9 @@ import Team from "../pages/Team";
 import Services from "../pages/Services";
 import Appointment from "../pages/Appointment";
 import CommonPage from "../pages/CommonPage";
+import Updates from "../pages/Updates";
+
+import UpdateDetail from "../pages/UpdateDetail";
 
 
 // 🔹 Home Page Component
@@ -343,7 +346,8 @@ export default function App() {
         <Route path="/appointment" element={<Appointment />} />
 
         {/* Dropdown Pages */}
-        <Route path="/updates" element={<CommonPage />} />
+        <Route path="/updates" element={<Updates />} />
+        <Route path="/updates/:id" element={<UpdateDetail />} />
         <Route path="/news" element={<CommonPage />} />
         <Route path="/surgical" element={<CommonPage />} />
         <Route path="/medical" element={<CommonPage />} />
