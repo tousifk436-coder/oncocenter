@@ -22,7 +22,7 @@ const AutoScrollSection = () => {
           </h2>
           <h1 className="text-4xl font-bold text-gray-800">
             Specialized Care Across Every
-Oncology and Medical Need
+             Oncology and Medical Need
           </h1>
         </div>
 
